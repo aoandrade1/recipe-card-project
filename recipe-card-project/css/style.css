@@ -1,0 +1,169 @@
+body {
+    background-color: #DAF7F6;
+    color: #3B3B3B;
+    font-family:'Open-Sans', serif;
+    font-size: 12px;
+    line-height: 16px;
+
+}
+
+header {
+    background-color: #ffffff;
+    text-align: center;
+}
+
+h1 {
+    color: #F16059;
+    display: inline-block;
+    font-family: 'Monserrat', serif;
+    font-size: 48px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0;
+    padding: 40px 0;
+
+}
+
+main {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+
+.recipe h2 {
+    color: #f16059;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 12.5px;
+}
+
+*h2 {
+    color: #F16059;
+}
+
+h3 {
+    color: #F16059;
+    padding: 4px;
+    border-top:  solid #3B3B3B;
+    border-bottom: solid #3B3B3B;
+}
+
+.card {
+    margin: 25px 0;
+    overflow: auto;
+}
+
+img {
+    width: 15px;
+    height: auto;
+}
+
+.image {
+    float: left;
+    height: 550px;
+    width: 500px;
+}
+
+.recipe {
+    box-sizing: border-box;
+    background-color: #ffffff;
+    float: left;
+    padding: 20px;
+    height: 550px;
+    width: 500px;
+}
+
+.time {
+    margin-bottom:auto;
+    overflow:auto;
+    text-transform: uppercase;
+}
+
+.time .prep {
+    border:1px solid #3B3B3B;
+    float: left;
+    padding:  6px;
+    width: 33.%;
+}
+
+.time .cook {
+    border: 1px solid #3B3B3B;
+    float: left;
+    padding:  6px;
+    width: 33.%;
+}
+
+.time .total {
+    border:1px solid #3B3B3B;
+    float: left;
+    padding:  5.05px;
+    width: 33.%;
+}
+
+.time-details {
+    display:inline;
+}
+
+.time img {
+    margin-right: .75px;
+    margin-left: 1.8px;
+    align-items: center;
+}
+
+.time  strong {
+    font-family: "Monterrant";
+}
+
+.columns {
+    overflow:auto;
+}
+
+.ingredients {
+    float: left;
+    width: 205px;
+    margin-right: 15px;
+}
+
+.ingredients ul {
+    padding-left: 9px;
+    line-height: 18px;
+}
+
+.ingredients li {
+    font-size: 12px;
+    list-style: square;
+}
+
+.description {
+    font-size: 13px;
+}
+
+.directions {
+    float: left;
+    width: 240px;
+}
+
+.directions ol {
+    padding-left: 15px;
+    line-height: 18px;
+}
+
+.directions li {
+    font-size: 12px;
+}
+
+#cookies .image {
+    background-image: url("../img/gluten-free-sugar-cookies.png");
+    background-size: cover;
+}
+
+#pesto .image {
+    background-image: url("../img/nut-free-pesto.png");
+    background-size: cover;
+}
+
+#salad .image {
+    background-image: url("../img/watermelon-salad.png");
+    background-size: cover;
+}
